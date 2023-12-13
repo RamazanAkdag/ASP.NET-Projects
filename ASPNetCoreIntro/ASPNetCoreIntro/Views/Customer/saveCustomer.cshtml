@@ -1,0 +1,15 @@
+﻿@model SaveCustomerViewModel
+
+        <h3 class="alert alert-success">Müşteri Ekle</h3>
+        <form asp-controller="Customer" asp-action="saveCustomer">
+            ID     : <input asp-for=customer.id placeholder="id giriniz"/></br>
+            Adı    : <input asp-for=customer.firstName placeholder="isim giriniz" /></br>
+            Soyadı : <input asp-for=customer.lastName placeholder="soyisim giriniz" /></br>
+            Şehir  : <select asp-for="customer.city" asp-items="Model.cities"></select></br>
+            <button type="submit"></button>
+
+        </form >
+
+        @section Scripts{
+            ramo was here
+        } 

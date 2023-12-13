@@ -1,0 +1,48 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    
+}
+@model CartListViewModel
+
+<h2>Sepetiniz</h2>
+
+@if(Model.Cart.CartLines.Count == 0)
+{
+    
+    <h2 class="badge bg-danger">Sepetiniz Boş...</h2>
+}
+else
+{
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Adı</th>
+                    <th>Açıklama</th>
+                    <th>Fiyat</th>
+                    <th>Stok Adedi</th>
+                    <th>Sepet Adedi</th>
+                </tr>
+            </thead>
+        @foreach (var cartLine in Model.Cart.CartLines)
+        {
+            <tbody>
+                <tr class="table">
+                    <td>@cartLine.Product.ProductId</td>
+                    <td>@cartLine.Product.ProductName</td>
+                    <td>@cartLine.Product.UnitPrice</td>
+                    <td>@cartLine.Product.QuantityPerUnit</td>
+                    <td>@cartLine.Product.UnitsInStock</td>
+                    <td>@cartLine.Quantity</td>
+                    <td><a class="btn btn-sm btn-danger" asp-controller="Cart" asp-action="RemoveFromCart" asp-route-productId="@cartLine.Product.ProductId">Sepetten Çıkar</a></td>
+                </tr>
+            </tbody>
+        }
+         </table>
+
+
+
+}
+

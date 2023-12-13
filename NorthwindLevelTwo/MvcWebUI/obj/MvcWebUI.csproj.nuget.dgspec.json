@@ -1,0 +1,379 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\MvcWebUI\\MvcWebUI.csproj": {}
+  },
+  "projects": {
+    "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Bussiness\\Bussiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Bussiness\\Bussiness.csproj",
+        "projectName": "Bussiness",
+        "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Bussiness\\Bussiness.csproj",
+        "packagesPath": "C:\\Users\\Ramazan Fırat\\.nuget\\packages\\",
+        "outputPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Bussiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramazan Fırat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\DataAccess\\DataAccess.csproj"
+              },
+              "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Ramazan Fırat\\.nuget\\packages\\",
+        "outputPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramazan Fırat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Ramazan Fırat\\.nuget\\packages\\",
+        "outputPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramazan Fırat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Ramazan Fırat\\.nuget\\packages\\",
+        "outputPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramazan Fırat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Core\\Core.csproj": {
+                "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\MvcWebUI\\MvcWebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\MvcWebUI\\MvcWebUI.csproj",
+        "projectName": "MvcWebUI",
+        "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\MvcWebUI\\MvcWebUI.csproj",
+        "packagesPath": "C:\\Users\\Ramazan Fırat\\.nuget\\packages\\",
+        "outputPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\MvcWebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual studio\\shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ramazan Fırat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Bussiness\\Bussiness.csproj": {
+                "projectPath": "D:\\programmerRamoFinallyStarted\\web\\ASP.NET\\NorthwindLevelTwo\\Bussiness\\Bussiness.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.8.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

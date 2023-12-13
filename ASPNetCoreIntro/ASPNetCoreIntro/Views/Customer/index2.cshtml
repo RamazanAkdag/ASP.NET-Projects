@@ -1,0 +1,38 @@
+﻿@model CustomerListViewModel
+@{
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <title>Index3</title>
+    </head>
+    <body>
+        <table>
+        @{
+            foreach(var customer in Model.customers)
+            {
+                <tr>
+                    <td>
+                        @customer.id
+                    </td>
+                    <td>
+                        @customer.firstName
+                    </td>
+                    <td>
+                        @customer.lastName
+                    </td>
+                    <td>
+                        @customer.city
+                    </td>
+                </tr>
+
+            }
+        }
+        </table>
+
+
+    </body>
+
+
+</html>

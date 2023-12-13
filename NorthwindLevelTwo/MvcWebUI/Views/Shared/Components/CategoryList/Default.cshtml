@@ -1,0 +1,29 @@
+﻿@model CategoryListViewModel
+@{
+    ViewBag.Title = "title";
+    
+}
+
+<h2>Kategoriler</h2>
+
+<ul class="list-group">
+    <a href="/product/index" class="list-group-item link-offset-2 text-decoration-none">
+        Tümünü Listele
+    </a>
+    @foreach(var category in Model.Categories)
+    {
+        var css = "list-group-item";
+        if (category.CategoryId == Model.CurrentCategory)
+        {
+            css += " text-white active";
+        }
+        <li class="@css">
+            <a href="/product/index?category=@category.CategoryId">
+               @category.CategoryName
+            </a>
+        </li>
+        
+           
+        
+    }
+</ul>

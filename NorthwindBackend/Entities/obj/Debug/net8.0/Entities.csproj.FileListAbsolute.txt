@@ -1,0 +1,15 @@
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\bin\Debug\net8.0\Entities.deps.json
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\bin\Debug\net8.0\Entities.dll
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\bin\Debug\net8.0\Entities.pdb
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\bin\Debug\net8.0\Core.dll
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\bin\Debug\net8.0\Core.pdb
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.csproj.CopyComplete
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.dll
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\refint\Entities.dll
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\Entities.pdb
+D:\programmerRamoFinallyStarted\web\ASP.NET\NorthwindBackend\Entities\obj\Debug\net8.0\ref\Entities.dll
